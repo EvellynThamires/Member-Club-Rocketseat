@@ -1,0 +1,31 @@
+:root {
+    --pink: #D658B3;
+    --green: #45B442;
+    --gray-700: #332B31;
+    --gray-600: #4A4448;
+    --gray-500: #756C71;
+    --gray-400: #D3CFD2;
+    --gray-300: #DFDCDF;
+    --gray-200: #E9E7E9;
+    --gray-100: #F4F1F2;
+    --white: #FFFFFF;
+    --gradient-base: linear-gradient(90deg, #2DAA6E 0%, #2DAAAA 33.33%, #856CCF 66.67%, #D658B3 100%);
+
+    --font-family: "Oxygen", sans-serif;
+    --title-md: bold 1.5rem/140% var(--font-family);
+    --title-sm: bold 1.125rem/140% var(--font-family);
+    --subtitle-md: bold 0.875rem/140% var(--font-family);
+    --subtitle-sm: bold 0.75rem/140% var(--font-family);
+    --text-md: 1rem/140% var(--font-family);
+    --text-sm: 0.875rem/140% var(--font-family);
+    --text-xs: 0.75rem/140% var(--font-family);
+}
+
+body {
+    background-color: var(--gray-200);
+}
+
+.container {
+    max-width: 912px;
+    margin: 0 auto;
+}
