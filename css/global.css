@@ -28,4 +28,11 @@ body {
 .container {
     max-width: 912px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 320px 568px;
+    grid-template-areas: 
+        "header header"
+        "aside main";
+    column-gap: 1.5rem;
 }
+
